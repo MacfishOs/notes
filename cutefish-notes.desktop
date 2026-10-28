@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Notes
+Comment=Botanical acrylic notes application with pastel flowers and floating cards
+Exec=cutefish-notes %U
+Icon=cutefish-notes
+Terminal=false
+Type=Application
+Categories=Utility;TextEditor;Office;
+Keywords=notes;markdown;todo;checklist;pastel;acrylic;
+StartupNotify=true

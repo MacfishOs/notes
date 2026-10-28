@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Tile Shadow -->
+    <filter id="tileShadow" x="0" y="2" width="128" height="126" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#000000" flood-opacity="0.10"/>
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+
+    <!-- Floating Card Shadow -->
+    <filter id="cardShadow" x="14" y="18" width="100" height="96" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="5" stdDeviation="4.5" flood-color="#142818" flood-opacity="0.12"/>
+      <feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+
+    <!-- Circular Button Shadow -->
+    <filter id="fabShadow" x="66" y="66" width="46" height="46" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="3.5" stdDeviation="3" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+
+    <!-- Canvas Tile Gradient -->
+    <linearGradient id="canvasGrad" x1="64" y1="6" x2="64" y2="118" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F5F6F9"/>
+    </linearGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="cardGrad" x1="64" y1="24" x2="64" y2="98" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FCFCFD"/>
+    </linearGradient>
+
+    <!-- Rose Petal Gradient -->
+    <linearGradient id="roseGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FCAEC0"/>
+      <stop offset="100%" stop-color="#F892A8"/>
+    </linearGradient>
+
+    <!-- Tulip Gradient -->
+    <linearGradient id="tulipGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFBBA6"/>
+      <stop offset="100%" stop-color="#FF9678"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1. Canvas Base Squircle Tile -->
+  <g filter="url(#tileShadow)">
+    <rect x="7" y="6" width="114" height="114" rx="27" fill="url(#canvasGrad)"/>
+    <rect x="7.5" y="6.5" width="113" height="113" rx="26.5" stroke="#E2E4E9" stroke-width="1"/>
+  </g>
+
+  <!-- 2. Botanical Foliage (Green Vines & Leaves) -->
+  <!-- Main Arching Vine (Top-Right) -->
+  <path d="M110 16 C95 24 82 22 66 38 C54 50 48 64 36 78 C28 88 18 96 10 100" stroke="#2A783C" stroke-width="2.6" stroke-linecap="round"/>
+  <!-- Branching Tendril -->
+  <path d="M66 38 C60 48 56 60 62 70 C66 76 74 76 72 68" stroke="#2A783C" stroke-width="2.0" stroke-linecap="round"/>
+
+  <!-- Botanical Leaves -->
+  <!-- Leaf 1 (Top) -->
+  <path d="M88 21 C82 12 70 14 74 24 C78 30 84 28 88 21 Z" fill="#388C4B"/>
+  <path d="M81 21 L75 22" stroke="#1D5A2F" stroke-width="0.8" stroke-linecap="round"/>
+
+  <!-- Leaf 2 (Mid-Left) -->
+  <path d="M48 55 C38 52 38 40 48 44 C54 46 54 54 48 55 Z" fill="#429A56"/>
+  <path d="M48 49 L42 47" stroke="#1D5A2F" stroke-width="0.8" stroke-linecap="round"/>
+
+  <!-- Leaf 3 (Tendril) -->
+  <path d="M65 72 C62 80 72 82 74 74 C75 68 68 67 65 72 Z" fill="#388C4B"/>
+
+  <!-- Leaf 4 (Bottom-Left) -->
+  <path d="M26 84 C16 86 18 96 26 94 C32 92 32 84 26 84 Z" fill="#429A56"/>
+
+  <!-- 3. Floating Pure White Note Card -->
+  <g filter="url(#cardShadow)">
+    <rect x="22" y="24" width="84" height="76" rx="14" fill="url(#cardGrad)"/>
+    <rect x="22.5" y="24.5" width="83" height="75" rx="13.5" stroke="#000000" stroke-opacity="0.08" stroke-width="1"/>
+    
+    <!-- Note Title Header Placeholder -->
+    <rect x="32" y="36" width="34" height="5" rx="2.5" fill="#1C1C1E" fill-opacity="0.85"/>
+    
+    <!-- Note Content Lines -->
+    <rect x="32" y="47" width="58" height="3" rx="1.5" fill="#8E8E93" fill-opacity="0.5"/>
+    <rect x="32" y="55" width="48" height="3" rx="1.5" fill="#8E8E93" fill-opacity="0.4"/>
+    <rect x="32" y="63" width="52" height="3" rx="1.5" fill="#8E8E93" fill-opacity="0.3"/>
+    
+    <!-- Checklist Checkbox & Line -->
+    <rect x="32" y="73" width="7" height="7" rx="2" fill="#007AFF" fill-opacity="0.15" stroke="#007AFF" stroke-width="1.2"/>
+    <path d="M34 76.5 L35.5 78 L38 74.5" stroke="#007AFF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="43" y="75" width="30" height="3" rx="1.5" fill="#8E8E93" fill-opacity="0.4"/>
+  </g>
+
+  <!-- 4. Beautiful Pastel Flowers -->
+  <!-- 🌷 Tulip (Top-Right of Card) -->
+  <g transform="translate(94, 26)">
+    <!-- Upright Center Petal -->
+    <path d="M0 6 C-3 1 -2 -6 0 -8 C2 -6 3 1 0 6 Z" fill="#FFB49E"/>
+    <!-- Left Cup -->
+    <path d="M-1 6 C-6 2 -5 -4 -2 -6 C-2 -1 -1 3 -1 6 Z" fill="#FFA085"/>
+    <!-- Right Cup -->
+    <path d="M1 6 C6 2 5 -4 2 -6 C2 -1 1 3 1 6 Z" fill="#FFA085"/>
+    <circle cx="0" cy="6" r="1.5" fill="#2A783C"/>
+  </g>
+
+  <!-- 🌹 Rose (Bottom-Left Corner of Card) -->
+  <g transform="translate(24, 96)">
+    <!-- 5 Outer Petals -->
+    <circle cx="-5" cy="-2" r="5" fill="#FCAEC0"/>
+    <circle cx="4" cy="-4" r="5" fill="#F89EB2"/>
+    <circle cx="5" cy="3" r="5" fill="#FCAEC0"/>
+    <circle cx="-2" cy="5" r="5" fill="#F89EB2"/>
+    <circle cx="-5" cy="1" r="4.5" fill="#FCAEC0"/>
+    <!-- Inner Swirl Petals -->
+    <circle cx="-1" cy="-1" r="3.2" fill="#EE7690"/>
+    <circle cx="1.5" cy="1" r="2.8" fill="#EE7690"/>
+    <!-- Center Core -->
+    <circle cx="0" cy="0" r="1.8" fill="#D84C68"/>
+  </g>
+
+  <!-- 🌼 Chameli / Jasmine (Top-Left Star) -->
+  <g transform="translate(18, 28)">
+    <!-- 5 Pointed Ivory Star Petals -->
+    <path d="M0 0 L0 -7 L1.5 -3 Z" fill="#FFFDF6"/>
+    <path d="M0 0 L6.5 -2 L3.5 0.5 Z" fill="#FFFDF6"/>
+    <path d="M0 0 L4 5.5 L1.5 3 Z" fill="#FFFDF6"/>
+    <path d="M0 0 L-4 5.5 L-1.5 3 Z" fill="#FFFDF6"/>
+    <path d="M0 0 L-6.5 -2 L-3.5 0.5 Z" fill="#FFFDF6"/>
+    <ellipse cx="0" cy="0" rx="4" ry="4" fill="#FFFDF6"/>
+    <!-- Golden Heart -->
+    <circle cx="0" cy="0" r="1.5" fill="#FCC030"/>
+  </g>
+
+  <!-- 🩵 Forget-Me-Not (Middle Branch) -->
+  <g transform="translate(86, 68)">
+    <circle cx="0" cy="-3.5" r="2.8" fill="#78BEFA"/>
+    <circle cx="3.3" cy="-1.1" r="2.8" fill="#78BEFA"/>
+    <circle cx="2" cy="3" r="2.8" fill="#78BEFA"/>
+    <circle cx="-2" cy="3" r="2.8" fill="#78BEFA"/>
+    <circle cx="-3.3" cy="-1.1" r="2.8" fill="#78BEFA"/>
+    <circle cx="0" cy="0" r="1.8" fill="#FFFFFF"/>
+    <circle cx="0" cy="0" r="1.0" fill="#FCC436"/>
+  </g>
+
+  <!-- 5. Floating Apple-Style White Circular "+" Action Button -->
+  <g filter="url(#fabShadow)">
+    <circle cx="89" cy="89" r="17" fill="#FFFFFF"/>
+    <circle cx="89" cy="89" r="16.5" stroke="#000000" stroke-opacity="0.08" stroke-width="1"/>
+    
+    <!-- Apple-Style Plus Icon -->
+    <path d="M89 83.5 V94.5 M83.5 89 H94.5" stroke="#1D1D1F" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+</svg>

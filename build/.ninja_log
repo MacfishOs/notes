@@ -1,0 +1,15 @@
+# ninja log v7
+2	3795	1792938809658016698	CMakeFiles/cutefish-notes.dir/src/model/note_item.cpp.o	8dab3eb5a8ef8883
+3	3964	1793026216098603555	CMakeFiles/cutefish-notes.dir/src/ui/window_controls.cpp.o	fdfc37274ba836e4
+2	4637	1792947453460361086	CMakeFiles/cutefish-notes.dir/src/backend/note_store.cpp.o	2ae0c7cea4922769
+3	2626	1793026216097636149	CMakeFiles/cutefish-notes.dir/src/main.cpp.o	5fad273616d88e02
+3	5329	1793026216098770331	CMakeFiles/cutefish-notes.dir/src/ui/botanical_background.cpp.o	718b8a6fcd1acbf6
+3	4776	1793026216098961758	CMakeFiles/cutefish-notes.dir/src/ui/note_card_view.cpp.o	466813215ad296c5
+3	5527	1793026216099091010	CMakeFiles/cutefish-notes.dir/src/ui/notes_grid_view.cpp.o	7a62e32a990ab197
+4	5673	1793026216099318868	CMakeFiles/cutefish-notes.dir/src/ui/main_window.cpp.o	b705fe76c7100b56
+3	7313	1793026216099205339	CMakeFiles/cutefish-notes.dir/src/ui/note_editor_view.cpp.o	224b176200ad557f
+5	7751	1792938809661012377	CMakeFiles/cutefish-notes.dir/src/ui/header_bar.cpp.o	bd90a7b42fd0b20f
+5	7203	1792938809660960105	CMakeFiles/cutefish-notes.dir/src/ui/sidebar_view.cpp.o	3fa5492acc281824
+7313	7675	1793026223407584810	cutefish-notes	b22fa878b4f9c210
+1	14	1792952573783383850	CMakeFiles/install.util	eee877fd2616200e
+3	5838	1793026216098880695	CMakeFiles/cutefish-notes.dir/src/ui/floating_toolbar.cpp.o	dd9fe07c8082f8d2

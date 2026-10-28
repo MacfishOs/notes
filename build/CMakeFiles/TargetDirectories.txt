@@ -1,0 +1,7 @@
+/home/jatin/Documents/development/cutefish-new/notes/build/CMakeFiles/cutefish-notes.dir
+/home/jatin/Documents/development/cutefish-new/notes/build/CMakeFiles/edit_cache.dir
+/home/jatin/Documents/development/cutefish-new/notes/build/CMakeFiles/rebuild_cache.dir
+/home/jatin/Documents/development/cutefish-new/notes/build/CMakeFiles/list_install_components.dir
+/home/jatin/Documents/development/cutefish-new/notes/build/CMakeFiles/install.dir
+/home/jatin/Documents/development/cutefish-new/notes/build/CMakeFiles/install/local.dir
+/home/jatin/Documents/development/cutefish-new/notes/build/CMakeFiles/install/strip.dir

@@ -1,0 +1,4 @@
+/usr/bin/cutefish-notes
+/usr/share/applications/cutefish-notes.desktop
+/usr/share/icons/hicolor/scalable/apps/cutefish-notes.svg
+/usr/share/icons/Cutefish/apps/scalable/cutefish-notes.svg

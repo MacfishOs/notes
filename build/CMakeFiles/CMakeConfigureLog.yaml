@@ -20,31 +20,25 @@ events:
     names:
       - "uname"
     candidate_directories:
-      - "/home/jatin/.gemini/antigravity-cli/bin/"
-      - "/home/jatin/.opencode/bin/"
       - "/home/jatin/.local/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
       - "/opt/android-sdk/platform-tools/"
-      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/"
+      - "/home/jatin/Android/Sdk/platform-tools/"
     searched_directories:
-      - "/home/jatin/.gemini/antigravity-cli/bin/uname"
-      - "/home/jatin/.opencode/bin/uname"
       - "/home/jatin/.local/bin/uname"
       - "/usr/local/bin/uname"
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
-        - "/home/jatin/.gemini/antigravity-cli/bin"
-        - "/home/jatin/.opencode/bin"
-        - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/usr/local/bin"
@@ -52,12 +46,15 @@ events:
         - "/bin"
         - "/usr/local/sbin"
         - "/opt/android-sdk/platform-tools"
-        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
   -
     kind: "message-v1"
     backtrace:
@@ -86,27 +83,20 @@ events:
       - "ninja"
       - "samu"
     candidate_directories:
-      - "/home/jatin/.gemini/antigravity-cli/bin/"
-      - "/home/jatin/.opencode/bin/"
       - "/home/jatin/.local/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
       - "/opt/android-sdk/platform-tools/"
-      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/"
+      - "/home/jatin/Android/Sdk/platform-tools/"
     searched_directories:
-      - "/home/jatin/.gemini/antigravity-cli/bin/ninja-build"
-      - "/home/jatin/.gemini/antigravity-cli/bin/ninja"
-      - "/home/jatin/.gemini/antigravity-cli/bin/samu"
-      - "/home/jatin/.opencode/bin/ninja-build"
-      - "/home/jatin/.opencode/bin/ninja"
-      - "/home/jatin/.opencode/bin/samu"
       - "/home/jatin/.local/bin/ninja-build"
       - "/home/jatin/.local/bin/ninja"
       - "/home/jatin/.local/bin/samu"
@@ -117,9 +107,6 @@ events:
     found: "/usr/bin/ninja"
     search_context:
       ENV{PATH}:
-        - "/home/jatin/.gemini/antigravity-cli/bin"
-        - "/home/jatin/.opencode/bin"
-        - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/usr/local/bin"
@@ -127,12 +114,15 @@ events:
         - "/bin"
         - "/usr/local/sbin"
         - "/opt/android-sdk/platform-tools"
-        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -162,31 +152,25 @@ events:
       - "icx"
       - "clang++"
     candidate_directories:
-      - "/home/jatin/.gemini/antigravity-cli/bin/"
-      - "/home/jatin/.opencode/bin/"
       - "/home/jatin/.local/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
       - "/opt/android-sdk/platform-tools/"
-      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/"
+      - "/home/jatin/Android/Sdk/platform-tools/"
     searched_directories:
-      - "/home/jatin/.gemini/antigravity-cli/bin/c++"
-      - "/home/jatin/.opencode/bin/c++"
       - "/home/jatin/.local/bin/c++"
       - "/usr/local/bin/c++"
     found: "/usr/bin/c++"
     search_context:
       ENV{PATH}:
-        - "/home/jatin/.gemini/antigravity-cli/bin"
-        - "/home/jatin/.opencode/bin"
-        - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/usr/local/bin"
@@ -194,12 +178,15 @@ events:
         - "/bin"
         - "/usr/local/sbin"
         - "/opt/android-sdk/platform-tools"
-        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -227,9 +214,6 @@ events:
     found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "/home/jatin/.gemini/antigravity-cli/bin"
-        - "/home/jatin/.opencode/bin"
-        - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/usr/local/bin"
@@ -237,12 +221,15 @@ events:
         - "/bin"
         - "/usr/local/sbin"
         - "/opt/android-sdk/platform-tools"
-        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
   -
     kind: "message-v1"
     backtrace:
@@ -286,25 +273,21 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/jatin/.gemini/antigravity-cli/bin/"
-      - "/home/jatin/.opencode/bin/"
       - "/home/jatin/.local/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
       - "/opt/android-sdk/platform-tools/"
-      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/"
+      - "/home/jatin/Android/Sdk/platform-tools/"
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
-        - "/home/jatin/.gemini/antigravity-cli/bin"
-        - "/home/jatin/.opencode/bin"
-        - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/usr/local/bin"
@@ -312,12 +295,15 @@ events:
         - "/bin"
         - "/usr/local/sbin"
         - "/opt/android-sdk/platform-tools"
-        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -339,25 +325,21 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/jatin/.gemini/antigravity-cli/bin/"
-      - "/home/jatin/.opencode/bin/"
       - "/home/jatin/.local/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
       - "/opt/android-sdk/platform-tools/"
-      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/"
+      - "/home/jatin/Android/Sdk/platform-tools/"
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
-        - "/home/jatin/.gemini/antigravity-cli/bin"
-        - "/home/jatin/.opencode/bin"
-        - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/usr/local/bin"
@@ -365,12 +347,15 @@ events:
         - "/bin"
         - "/usr/local/sbin"
         - "/opt/android-sdk/platform-tools"
-        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -392,25 +377,21 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/jatin/.gemini/antigravity-cli/bin/"
-      - "/home/jatin/.opencode/bin/"
       - "/home/jatin/.local/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
       - "/opt/android-sdk/platform-tools/"
-      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/"
+      - "/home/jatin/Android/Sdk/platform-tools/"
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
-        - "/home/jatin/.gemini/antigravity-cli/bin"
-        - "/home/jatin/.opencode/bin"
-        - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/usr/local/bin"
@@ -418,12 +399,15 @@ events:
         - "/bin"
         - "/usr/local/sbin"
         - "/opt/android-sdk/platform-tools"
-        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -445,25 +429,21 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/jatin/.gemini/antigravity-cli/bin/"
-      - "/home/jatin/.opencode/bin/"
       - "/home/jatin/.local/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
       - "/opt/android-sdk/platform-tools/"
-      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/"
+      - "/home/jatin/Android/Sdk/platform-tools/"
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
-        - "/home/jatin/.gemini/antigravity-cli/bin"
-        - "/home/jatin/.opencode/bin"
-        - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/usr/local/bin"
@@ -471,12 +451,15 @@ events:
         - "/bin"
         - "/usr/local/sbin"
         - "/opt/android-sdk/platform-tools"
-        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -498,25 +481,21 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/jatin/.gemini/antigravity-cli/bin/"
-      - "/home/jatin/.opencode/bin/"
       - "/home/jatin/.local/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
       - "/opt/android-sdk/platform-tools/"
-      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/"
+      - "/home/jatin/Android/Sdk/platform-tools/"
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
-        - "/home/jatin/.gemini/antigravity-cli/bin"
-        - "/home/jatin/.opencode/bin"
-        - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/usr/local/bin"
@@ -524,12 +503,15 @@ events:
         - "/bin"
         - "/usr/local/sbin"
         - "/opt/android-sdk/platform-tools"
-        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -551,25 +533,21 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/jatin/.gemini/antigravity-cli/bin/"
-      - "/home/jatin/.opencode/bin/"
       - "/home/jatin/.local/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
       - "/opt/android-sdk/platform-tools/"
-      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/"
+      - "/home/jatin/Android/Sdk/platform-tools/"
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
-        - "/home/jatin/.gemini/antigravity-cli/bin"
-        - "/home/jatin/.opencode/bin"
-        - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/usr/local/bin"
@@ -577,12 +555,15 @@ events:
         - "/bin"
         - "/usr/local/sbin"
         - "/opt/android-sdk/platform-tools"
-        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -604,25 +585,21 @@ events:
       - "objcopy"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/jatin/.gemini/antigravity-cli/bin/"
-      - "/home/jatin/.opencode/bin/"
       - "/home/jatin/.local/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
       - "/opt/android-sdk/platform-tools/"
-      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/"
+      - "/home/jatin/Android/Sdk/platform-tools/"
     found: "/usr/bin/objcopy"
     search_context:
       ENV{PATH}:
-        - "/home/jatin/.gemini/antigravity-cli/bin"
-        - "/home/jatin/.opencode/bin"
-        - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/usr/local/bin"
@@ -630,12 +607,15 @@ events:
         - "/bin"
         - "/usr/local/sbin"
         - "/opt/android-sdk/platform-tools"
-        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -657,25 +637,21 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/jatin/.gemini/antigravity-cli/bin/"
-      - "/home/jatin/.opencode/bin/"
       - "/home/jatin/.local/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
       - "/opt/android-sdk/platform-tools/"
-      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/"
+      - "/home/jatin/Android/Sdk/platform-tools/"
     found: "/usr/bin/readelf"
     search_context:
       ENV{PATH}:
-        - "/home/jatin/.gemini/antigravity-cli/bin"
-        - "/home/jatin/.opencode/bin"
-        - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/usr/local/bin"
@@ -683,12 +659,15 @@ events:
         - "/bin"
         - "/usr/local/sbin"
         - "/opt/android-sdk/platform-tools"
-        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -710,40 +689,35 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/jatin/.gemini/antigravity-cli/bin/"
-      - "/home/jatin/.opencode/bin/"
       - "/home/jatin/.local/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
       - "/opt/android-sdk/platform-tools/"
-      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/"
+      - "/home/jatin/Android/Sdk/platform-tools/"
     searched_directories:
       - "/usr/bin/dlltool"
-      - "/home/jatin/.gemini/antigravity-cli/bin/dlltool"
-      - "/home/jatin/.opencode/bin/dlltool"
       - "/home/jatin/.local/bin/dlltool"
       - "/usr/local/bin/dlltool"
       - "/bin/dlltool"
       - "/usr/local/sbin/dlltool"
       - "/opt/android-sdk/platform-tools/dlltool"
-      - "/var/lib/flatpak/exports/bin/dlltool"
       - "/usr/lib/jvm/default/bin/dlltool"
       - "/usr/bin/site_perl/dlltool"
       - "/usr/bin/vendor_perl/dlltool"
       - "/usr/bin/core_perl/dlltool"
       - "/usr/lib/rustup/bin/dlltool"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/dlltool"
+      - "/home/jatin/Android/Sdk/platform-tools/dlltool"
     found: false
     search_context:
       ENV{PATH}:
-        - "/home/jatin/.gemini/antigravity-cli/bin"
-        - "/home/jatin/.opencode/bin"
-        - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/usr/local/bin"
@@ -751,12 +725,15 @@ events:
         - "/bin"
         - "/usr/local/sbin"
         - "/opt/android-sdk/platform-tools"
-        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -778,25 +755,21 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/jatin/.gemini/antigravity-cli/bin/"
-      - "/home/jatin/.opencode/bin/"
       - "/home/jatin/.local/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
       - "/opt/android-sdk/platform-tools/"
-      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/"
+      - "/home/jatin/Android/Sdk/platform-tools/"
     found: "/usr/bin/addr2line"
     search_context:
       ENV{PATH}:
-        - "/home/jatin/.gemini/antigravity-cli/bin"
-        - "/home/jatin/.opencode/bin"
-        - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/usr/local/bin"
@@ -804,12 +777,15 @@ events:
         - "/bin"
         - "/usr/local/sbin"
         - "/opt/android-sdk/platform-tools"
-        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -831,40 +807,35 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/jatin/.gemini/antigravity-cli/bin/"
-      - "/home/jatin/.opencode/bin/"
       - "/home/jatin/.local/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
       - "/opt/android-sdk/platform-tools/"
-      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/"
+      - "/home/jatin/Android/Sdk/platform-tools/"
     searched_directories:
       - "/usr/bin/tapi"
-      - "/home/jatin/.gemini/antigravity-cli/bin/tapi"
-      - "/home/jatin/.opencode/bin/tapi"
       - "/home/jatin/.local/bin/tapi"
       - "/usr/local/bin/tapi"
       - "/bin/tapi"
       - "/usr/local/sbin/tapi"
       - "/opt/android-sdk/platform-tools/tapi"
-      - "/var/lib/flatpak/exports/bin/tapi"
       - "/usr/lib/jvm/default/bin/tapi"
       - "/usr/bin/site_perl/tapi"
       - "/usr/bin/vendor_perl/tapi"
       - "/usr/bin/core_perl/tapi"
       - "/usr/lib/rustup/bin/tapi"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/tapi"
+      - "/home/jatin/Android/Sdk/platform-tools/tapi"
     found: false
     search_context:
       ENV{PATH}:
-        - "/home/jatin/.gemini/antigravity-cli/bin"
-        - "/home/jatin/.opencode/bin"
-        - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/usr/local/bin"
@@ -872,12 +843,15 @@ events:
         - "/bin"
         - "/usr/local/sbin"
         - "/opt/android-sdk/platform-tools"
-        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -902,68 +876,61 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/jatin/.gemini/antigravity-cli/bin/"
-      - "/home/jatin/.opencode/bin/"
       - "/home/jatin/.local/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
       - "/opt/android-sdk/platform-tools/"
-      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/"
+      - "/home/jatin/Android/Sdk/platform-tools/"
     searched_directories:
       - "/usr/bin/gcc-ar-16.2"
-      - "/home/jatin/.gemini/antigravity-cli/bin/gcc-ar-16.2"
-      - "/home/jatin/.opencode/bin/gcc-ar-16.2"
       - "/home/jatin/.local/bin/gcc-ar-16.2"
       - "/usr/local/bin/gcc-ar-16.2"
       - "/bin/gcc-ar-16.2"
       - "/usr/local/sbin/gcc-ar-16.2"
       - "/opt/android-sdk/platform-tools/gcc-ar-16.2"
-      - "/var/lib/flatpak/exports/bin/gcc-ar-16.2"
       - "/usr/lib/jvm/default/bin/gcc-ar-16.2"
       - "/usr/bin/site_perl/gcc-ar-16.2"
       - "/usr/bin/vendor_perl/gcc-ar-16.2"
       - "/usr/bin/core_perl/gcc-ar-16.2"
       - "/usr/lib/rustup/bin/gcc-ar-16.2"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/gcc-ar-16.2"
+      - "/home/jatin/Android/Sdk/platform-tools/gcc-ar-16.2"
       - "/usr/bin/gcc-ar-16"
-      - "/home/jatin/.gemini/antigravity-cli/bin/gcc-ar-16"
-      - "/home/jatin/.opencode/bin/gcc-ar-16"
       - "/home/jatin/.local/bin/gcc-ar-16"
       - "/usr/local/bin/gcc-ar-16"
       - "/bin/gcc-ar-16"
       - "/usr/local/sbin/gcc-ar-16"
       - "/opt/android-sdk/platform-tools/gcc-ar-16"
-      - "/var/lib/flatpak/exports/bin/gcc-ar-16"
       - "/usr/lib/jvm/default/bin/gcc-ar-16"
       - "/usr/bin/site_perl/gcc-ar-16"
       - "/usr/bin/vendor_perl/gcc-ar-16"
       - "/usr/bin/core_perl/gcc-ar-16"
       - "/usr/lib/rustup/bin/gcc-ar-16"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/gcc-ar-16"
+      - "/home/jatin/Android/Sdk/platform-tools/gcc-ar-16"
       - "/usr/bin/gcc-ar16"
-      - "/home/jatin/.gemini/antigravity-cli/bin/gcc-ar16"
-      - "/home/jatin/.opencode/bin/gcc-ar16"
       - "/home/jatin/.local/bin/gcc-ar16"
       - "/usr/local/bin/gcc-ar16"
       - "/bin/gcc-ar16"
       - "/usr/local/sbin/gcc-ar16"
       - "/opt/android-sdk/platform-tools/gcc-ar16"
-      - "/var/lib/flatpak/exports/bin/gcc-ar16"
       - "/usr/lib/jvm/default/bin/gcc-ar16"
       - "/usr/bin/site_perl/gcc-ar16"
       - "/usr/bin/vendor_perl/gcc-ar16"
       - "/usr/bin/core_perl/gcc-ar16"
       - "/usr/lib/rustup/bin/gcc-ar16"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/gcc-ar16"
+      - "/home/jatin/Android/Sdk/platform-tools/gcc-ar16"
     found: "/usr/bin/gcc-ar"
     search_context:
       ENV{PATH}:
-        - "/home/jatin/.gemini/antigravity-cli/bin"
-        - "/home/jatin/.opencode/bin"
-        - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/usr/local/bin"
@@ -971,12 +938,15 @@ events:
         - "/bin"
         - "/usr/local/sbin"
         - "/opt/android-sdk/platform-tools"
-        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
   -
     kind: "find-v1"
     backtrace:
@@ -1001,68 +971,61 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/jatin/.gemini/antigravity-cli/bin/"
-      - "/home/jatin/.opencode/bin/"
       - "/home/jatin/.local/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
       - "/opt/android-sdk/platform-tools/"
-      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/"
+      - "/home/jatin/Android/Sdk/platform-tools/"
     searched_directories:
       - "/usr/bin/gcc-ranlib-16.2"
-      - "/home/jatin/.gemini/antigravity-cli/bin/gcc-ranlib-16.2"
-      - "/home/jatin/.opencode/bin/gcc-ranlib-16.2"
       - "/home/jatin/.local/bin/gcc-ranlib-16.2"
       - "/usr/local/bin/gcc-ranlib-16.2"
       - "/bin/gcc-ranlib-16.2"
       - "/usr/local/sbin/gcc-ranlib-16.2"
       - "/opt/android-sdk/platform-tools/gcc-ranlib-16.2"
-      - "/var/lib/flatpak/exports/bin/gcc-ranlib-16.2"
       - "/usr/lib/jvm/default/bin/gcc-ranlib-16.2"
       - "/usr/bin/site_perl/gcc-ranlib-16.2"
       - "/usr/bin/vendor_perl/gcc-ranlib-16.2"
       - "/usr/bin/core_perl/gcc-ranlib-16.2"
       - "/usr/lib/rustup/bin/gcc-ranlib-16.2"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/gcc-ranlib-16.2"
+      - "/home/jatin/Android/Sdk/platform-tools/gcc-ranlib-16.2"
       - "/usr/bin/gcc-ranlib-16"
-      - "/home/jatin/.gemini/antigravity-cli/bin/gcc-ranlib-16"
-      - "/home/jatin/.opencode/bin/gcc-ranlib-16"
       - "/home/jatin/.local/bin/gcc-ranlib-16"
       - "/usr/local/bin/gcc-ranlib-16"
       - "/bin/gcc-ranlib-16"
       - "/usr/local/sbin/gcc-ranlib-16"
       - "/opt/android-sdk/platform-tools/gcc-ranlib-16"
-      - "/var/lib/flatpak/exports/bin/gcc-ranlib-16"
       - "/usr/lib/jvm/default/bin/gcc-ranlib-16"
       - "/usr/bin/site_perl/gcc-ranlib-16"
       - "/usr/bin/vendor_perl/gcc-ranlib-16"
       - "/usr/bin/core_perl/gcc-ranlib-16"
       - "/usr/lib/rustup/bin/gcc-ranlib-16"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/gcc-ranlib-16"
+      - "/home/jatin/Android/Sdk/platform-tools/gcc-ranlib-16"
       - "/usr/bin/gcc-ranlib16"
-      - "/home/jatin/.gemini/antigravity-cli/bin/gcc-ranlib16"
-      - "/home/jatin/.opencode/bin/gcc-ranlib16"
       - "/home/jatin/.local/bin/gcc-ranlib16"
       - "/usr/local/bin/gcc-ranlib16"
       - "/bin/gcc-ranlib16"
       - "/usr/local/sbin/gcc-ranlib16"
       - "/opt/android-sdk/platform-tools/gcc-ranlib16"
-      - "/var/lib/flatpak/exports/bin/gcc-ranlib16"
       - "/usr/lib/jvm/default/bin/gcc-ranlib16"
       - "/usr/bin/site_perl/gcc-ranlib16"
       - "/usr/bin/vendor_perl/gcc-ranlib16"
       - "/usr/bin/core_perl/gcc-ranlib16"
       - "/usr/lib/rustup/bin/gcc-ranlib16"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/gcc-ranlib16"
+      - "/home/jatin/Android/Sdk/platform-tools/gcc-ranlib16"
     found: "/usr/bin/gcc-ranlib"
     search_context:
       ENV{PATH}:
-        - "/home/jatin/.gemini/antigravity-cli/bin"
-        - "/home/jatin/.opencode/bin"
-        - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/usr/local/bin"
@@ -1070,12 +1033,15 @@ events:
         - "/bin"
         - "/usr/local/sbin"
         - "/opt/android-sdk/platform-tools"
-        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
   -
     kind: "try_compile-v1"
     backtrace:
@@ -1085,8 +1051,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/jatin/Documents/development/cutefish-new/notes/build/CMakeFiles/CMakeScratch/TryCompile-Rm7Dry"
-      binary: "/home/jatin/Documents/development/cutefish-new/notes/build/CMakeFiles/CMakeScratch/TryCompile-Rm7Dry"
+      source: "/home/jatin/Documents/development/cutefish-new/notes/build/CMakeFiles/CMakeScratch/TryCompile-NOiWwq"
+      binary: "/home/jatin/Documents/development/cutefish-new/notes/build/CMakeFiles/CMakeScratch/TryCompile-NOiWwq"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1097,10 +1063,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: '/home/jatin/Documents/development/cutefish-new/notes/build/CMakeFiles/CMakeScratch/TryCompile-Rm7Dry'
+        Change Dir: '/home/jatin/Documents/development/cutefish-new/notes/build/CMakeFiles/CMakeScratch/TryCompile-NOiWwq'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_19243
-        [1/2] /usr/bin/c++   -v -o CMakeFiles/cmTC_19243.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/ninja -v cmTC_3b89f
+        [1/2] /usr/bin/c++   -v -o CMakeFiles/cmTC_3b89f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         Target: x86_64-pc-linux-gnu
@@ -1108,8 +1074,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 16.2.1 20260810 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_19243.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_19243.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_19243.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccYbNGlN.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3b89f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3b89f.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_3b89f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccssDoZB.s
         GNU C++20 (GCC) version 16.2.1 20260810 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 16.2.1 20260810, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.28-GMP
         
@@ -1126,13 +1092,13 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 4e9ac8b201f4ca740be09d0c7a39f82f
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_19243.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_19243.dir/'
-         as -v --64 -o CMakeFiles/cmTC_19243.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccYbNGlN.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3b89f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3b89f.dir/'
+         as -v --64 -o CMakeFiles/cmTC_3b89f.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccssDoZB.s
         GNU assembler version 2.47 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.47
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_19243.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_19243.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] : && /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_19243.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_19243   && :
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3b89f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3b89f.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_3b89f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_3b89f   && :
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper
@@ -1143,12 +1109,12 @@ events:
         gcc version 16.2.1 20260810 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_19243' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_19243.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFZfi5N.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_19243 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_19243.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3b89f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3b89f.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJikXwD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_3b89f /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_3b89f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
         collect2 version 16.2.1 20260810
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFZfi5N.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_19243 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_19243.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJikXwD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_3b89f /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_3b89f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
         GNU ld (GNU Binutils) 2.47
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_19243' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_19243.'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3b89f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3b89f.'
         
       exitCode: 0
   -
@@ -1187,10 +1153,10 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
-        ignore line: [Change Dir: '/home/jatin/Documents/development/cutefish-new/notes/build/CMakeFiles/CMakeScratch/TryCompile-Rm7Dry']
+        ignore line: [Change Dir: '/home/jatin/Documents/development/cutefish-new/notes/build/CMakeFiles/CMakeScratch/TryCompile-NOiWwq']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_19243]
-        ignore line: [[1/2] /usr/bin/c++   -v -o CMakeFiles/cmTC_19243.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_3b89f]
+        ignore line: [[1/2] /usr/bin/c++   -v -o CMakeFiles/cmTC_3b89f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -1198,8 +1164,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 16.2.1 20260810 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_19243.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_19243.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_19243.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccYbNGlN.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3b89f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3b89f.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_3b89f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccssDoZB.s]
         ignore line: [GNU C++20 (GCC) version 16.2.1 20260810 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 16.2.1 20260810  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.28-GMP]
         ignore line: []
@@ -1216,13 +1182,13 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 4e9ac8b201f4ca740be09d0c7a39f82f]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_19243.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_19243.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_19243.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccYbNGlN.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3b89f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3b89f.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_3b89f.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccssDoZB.s]
         ignore line: [GNU assembler version 2.47 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.47]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_19243.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_19243.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] : && /usr/bin/c++  -v -Wl -v CMakeFiles/cmTC_19243.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_19243   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3b89f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3b89f.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /usr/bin/c++  -v -Wl -v CMakeFiles/cmTC_3b89f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_3b89f   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper]
@@ -1233,13 +1199,13 @@ events:
         ignore line: [gcc version 16.2.1 20260810 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_19243' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_19243.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFZfi5N.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_19243 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_19243.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3b89f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3b89f.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJikXwD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_3b89f /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_3b89f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccFZfi5N.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccJikXwD.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
@@ -1255,7 +1221,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_19243] ==> ignore
+          arg [cmTC_3b89f] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o]
@@ -1267,7 +1233,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_19243.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_3b89f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1279,9 +1245,9 @@ events:
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
         ignore line: [collect2 version 16.2.1 20260810]
-        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFZfi5N.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_19243 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_19243.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker [/usr/bin/ld]
-        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFZfi5N.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_19243 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_19243.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker architecture flags [-m;elf]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFZfi5N.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_19243 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_19243.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
+        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJikXwD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_3b89f /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_3b89f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker [/usr/bin/ld]
+        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJikXwD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_3b89f /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_3b89f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker architecture flags [-m;elf]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJikXwD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_3b89f /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_3b89f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
         linker tool for 'CXX': /usr/bin/ld -m;elf
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
@@ -1312,6 +1278,86 @@ events:
   -
     kind: "find-v1"
     backtrace:
+      - "/usr/share/cmake/Modules/CTest.cmake:171 (find_program)"
+      - "CMakeLists.txt:10 (include)"
+    mode: "program"
+    variable: "GITCOMMAND"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git"
+    candidate_directories:
+      - "/home/jatin/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/"
+      - "/home/jatin/Android/Sdk/platform-tools/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/jatin/.local/bin/git"
+      - "/usr/local/bin/git"
+    found: "/usr/bin/git"
+    search_context:
+      ENV{PATH}:
+        - "/home/jatin/.local/bin"
+        - "/home/jatin/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/opt/android-sdk/platform-tools"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
       - "/usr/share/cmake/Modules/CTest.cmake:188 (find_program)"
       - "CMakeLists.txt:10 (include)"
     mode: "program"
@@ -1333,20 +1379,19 @@ events:
       - "cuda-memcheck"
       - "compute-sanitizer"
     candidate_directories:
-      - "/home/jatin/.gemini/antigravity-cli/bin/"
-      - "/home/jatin/.opencode/bin/"
       - "/home/jatin/.local/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
       - "/opt/android-sdk/platform-tools/"
-      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/"
+      - "/home/jatin/Android/Sdk/platform-tools/"
       - "/usr/local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/"
@@ -1365,20 +1410,19 @@ events:
       - "/opt/sbin/"
       - "/opt/"
     searched_directories:
-      - "/home/jatin/.gemini/antigravity-cli/bin/purify"
-      - "/home/jatin/.opencode/bin/purify"
       - "/home/jatin/.local/bin/purify"
       - "/usr/local/bin/purify"
       - "/usr/bin/purify"
       - "/bin/purify"
       - "/usr/local/sbin/purify"
       - "/opt/android-sdk/platform-tools/purify"
-      - "/var/lib/flatpak/exports/bin/purify"
       - "/usr/lib/jvm/default/bin/purify"
       - "/usr/bin/site_perl/purify"
       - "/usr/bin/vendor_perl/purify"
       - "/usr/bin/core_perl/purify"
       - "/usr/lib/rustup/bin/purify"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/purify"
+      - "/home/jatin/Android/Sdk/platform-tools/purify"
       - "/usr/local/bin/purify"
       - "/usr/local/sbin/purify"
       - "/usr/local/purify"
@@ -1396,20 +1440,19 @@ events:
       - "/opt/bin/purify"
       - "/opt/sbin/purify"
       - "/opt/purify"
-      - "/home/jatin/.gemini/antigravity-cli/bin/valgrind"
-      - "/home/jatin/.opencode/bin/valgrind"
       - "/home/jatin/.local/bin/valgrind"
       - "/usr/local/bin/valgrind"
       - "/usr/bin/valgrind"
       - "/bin/valgrind"
       - "/usr/local/sbin/valgrind"
       - "/opt/android-sdk/platform-tools/valgrind"
-      - "/var/lib/flatpak/exports/bin/valgrind"
       - "/usr/lib/jvm/default/bin/valgrind"
       - "/usr/bin/site_perl/valgrind"
       - "/usr/bin/vendor_perl/valgrind"
       - "/usr/bin/core_perl/valgrind"
       - "/usr/lib/rustup/bin/valgrind"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/valgrind"
+      - "/home/jatin/Android/Sdk/platform-tools/valgrind"
       - "/usr/local/bin/valgrind"
       - "/usr/local/sbin/valgrind"
       - "/usr/local/valgrind"
@@ -1427,20 +1470,19 @@ events:
       - "/opt/bin/valgrind"
       - "/opt/sbin/valgrind"
       - "/opt/valgrind"
-      - "/home/jatin/.gemini/antigravity-cli/bin/boundscheck"
-      - "/home/jatin/.opencode/bin/boundscheck"
       - "/home/jatin/.local/bin/boundscheck"
       - "/usr/local/bin/boundscheck"
       - "/usr/bin/boundscheck"
       - "/bin/boundscheck"
       - "/usr/local/sbin/boundscheck"
       - "/opt/android-sdk/platform-tools/boundscheck"
-      - "/var/lib/flatpak/exports/bin/boundscheck"
       - "/usr/lib/jvm/default/bin/boundscheck"
       - "/usr/bin/site_perl/boundscheck"
       - "/usr/bin/vendor_perl/boundscheck"
       - "/usr/bin/core_perl/boundscheck"
       - "/usr/lib/rustup/bin/boundscheck"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/boundscheck"
+      - "/home/jatin/Android/Sdk/platform-tools/boundscheck"
       - "/usr/local/bin/boundscheck"
       - "/usr/local/sbin/boundscheck"
       - "/usr/local/boundscheck"
@@ -1458,20 +1500,19 @@ events:
       - "/opt/bin/boundscheck"
       - "/opt/sbin/boundscheck"
       - "/opt/boundscheck"
-      - "/home/jatin/.gemini/antigravity-cli/bin/drmemory"
-      - "/home/jatin/.opencode/bin/drmemory"
       - "/home/jatin/.local/bin/drmemory"
       - "/usr/local/bin/drmemory"
       - "/usr/bin/drmemory"
       - "/bin/drmemory"
       - "/usr/local/sbin/drmemory"
       - "/opt/android-sdk/platform-tools/drmemory"
-      - "/var/lib/flatpak/exports/bin/drmemory"
       - "/usr/lib/jvm/default/bin/drmemory"
       - "/usr/bin/site_perl/drmemory"
       - "/usr/bin/vendor_perl/drmemory"
       - "/usr/bin/core_perl/drmemory"
       - "/usr/lib/rustup/bin/drmemory"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/drmemory"
+      - "/home/jatin/Android/Sdk/platform-tools/drmemory"
       - "/usr/local/bin/drmemory"
       - "/usr/local/sbin/drmemory"
       - "/usr/local/drmemory"
@@ -1489,20 +1530,19 @@ events:
       - "/opt/bin/drmemory"
       - "/opt/sbin/drmemory"
       - "/opt/drmemory"
-      - "/home/jatin/.gemini/antigravity-cli/bin/cuda-memcheck"
-      - "/home/jatin/.opencode/bin/cuda-memcheck"
       - "/home/jatin/.local/bin/cuda-memcheck"
       - "/usr/local/bin/cuda-memcheck"
       - "/usr/bin/cuda-memcheck"
       - "/bin/cuda-memcheck"
       - "/usr/local/sbin/cuda-memcheck"
       - "/opt/android-sdk/platform-tools/cuda-memcheck"
-      - "/var/lib/flatpak/exports/bin/cuda-memcheck"
       - "/usr/lib/jvm/default/bin/cuda-memcheck"
       - "/usr/bin/site_perl/cuda-memcheck"
       - "/usr/bin/vendor_perl/cuda-memcheck"
       - "/usr/bin/core_perl/cuda-memcheck"
       - "/usr/lib/rustup/bin/cuda-memcheck"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/cuda-memcheck"
+      - "/home/jatin/Android/Sdk/platform-tools/cuda-memcheck"
       - "/usr/local/bin/cuda-memcheck"
       - "/usr/local/sbin/cuda-memcheck"
       - "/usr/local/cuda-memcheck"
@@ -1520,20 +1560,19 @@ events:
       - "/opt/bin/cuda-memcheck"
       - "/opt/sbin/cuda-memcheck"
       - "/opt/cuda-memcheck"
-      - "/home/jatin/.gemini/antigravity-cli/bin/compute-sanitizer"
-      - "/home/jatin/.opencode/bin/compute-sanitizer"
       - "/home/jatin/.local/bin/compute-sanitizer"
       - "/usr/local/bin/compute-sanitizer"
       - "/usr/bin/compute-sanitizer"
       - "/bin/compute-sanitizer"
       - "/usr/local/sbin/compute-sanitizer"
       - "/opt/android-sdk/platform-tools/compute-sanitizer"
-      - "/var/lib/flatpak/exports/bin/compute-sanitizer"
       - "/usr/lib/jvm/default/bin/compute-sanitizer"
       - "/usr/bin/site_perl/compute-sanitizer"
       - "/usr/bin/vendor_perl/compute-sanitizer"
       - "/usr/bin/core_perl/compute-sanitizer"
       - "/usr/lib/rustup/bin/compute-sanitizer"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/compute-sanitizer"
+      - "/home/jatin/Android/Sdk/platform-tools/compute-sanitizer"
       - "/usr/local/bin/compute-sanitizer"
       - "/usr/local/sbin/compute-sanitizer"
       - "/usr/local/compute-sanitizer"
@@ -1554,9 +1593,6 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/home/jatin/.gemini/antigravity-cli/bin"
-        - "/home/jatin/.opencode/bin"
-        - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/usr/local/bin"
@@ -1564,19 +1600,21 @@ events:
         - "/bin"
         - "/usr/local/sbin"
         - "/opt/android-sdk/platform-tools"
-        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
         - "/usr"
         - "/"
         - "/usr"
-        - "/usr/local"
+        - "/usr"
         - "/usr/X11R6"
         - "/usr/pkg"
         - "/opt"
@@ -1599,20 +1637,19 @@ events:
     names:
       - "gcov"
     candidate_directories:
-      - "/home/jatin/.gemini/antigravity-cli/bin/"
-      - "/home/jatin/.opencode/bin/"
       - "/home/jatin/.local/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
       - "/opt/android-sdk/platform-tools/"
-      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/"
+      - "/home/jatin/Android/Sdk/platform-tools/"
       - "/usr/local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/"
@@ -1631,16 +1668,11 @@ events:
       - "/opt/sbin/"
       - "/opt/"
     searched_directories:
-      - "/home/jatin/.gemini/antigravity-cli/bin/gcov"
-      - "/home/jatin/.opencode/bin/gcov"
       - "/home/jatin/.local/bin/gcov"
       - "/usr/local/bin/gcov"
     found: "/usr/bin/gcov"
     search_context:
       ENV{PATH}:
-        - "/home/jatin/.gemini/antigravity-cli/bin"
-        - "/home/jatin/.opencode/bin"
-        - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/usr/local/bin"
@@ -1648,19 +1680,21 @@ events:
         - "/bin"
         - "/usr/local/sbin"
         - "/opt/android-sdk/platform-tools"
-        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
         - "/usr"
         - "/"
         - "/usr"
-        - "/usr/local"
+        - "/usr"
         - "/usr/X11R6"
         - "/usr/pkg"
         - "/opt"
@@ -1739,9 +1773,6 @@ events:
         - "/usr/local/lib/cmake/CutefishToolkit"
         - "/home/jatin/Documents/development/cutefish-new/notes/../cutefish-toolkit/build"
       ENV{PATH}:
-        - "/home/jatin/.gemini/antigravity-cli/bin"
-        - "/home/jatin/.opencode/bin"
-        - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/usr/local/bin"
@@ -1749,19 +1780,21 @@ events:
         - "/bin"
         - "/usr/local/sbin"
         - "/opt/android-sdk/platform-tools"
-        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
         - "/usr"
         - "/"
         - "/usr"
-        - "/usr/local"
+        - "/usr"
         - "/usr/X11R6"
         - "/usr/pkg"
         - "/opt"
@@ -1794,20 +1827,19 @@ events:
       - "/home/jatin/Documents/development/cutefish-new/cutefish-toolkit/build/bin/"
       - "/home/jatin/Documents/development/cutefish-new/cutefish-toolkit/build/sbin/"
       - "/home/jatin/Documents/development/cutefish-new/cutefish-toolkit/build/"
-      - "/home/jatin/.gemini/antigravity-cli/bin/"
-      - "/home/jatin/.opencode/bin/"
       - "/home/jatin/.local/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
       - "/opt/android-sdk/platform-tools/"
-      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/"
+      - "/home/jatin/Android/Sdk/platform-tools/"
       - "/usr/local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/"
@@ -1844,10 +1876,6 @@ events:
       - "/home/jatin/Documents/development/cutefish-new/cutefish-toolkit/build/sbin/pkgconf"
       - "/home/jatin/Documents/development/cutefish-new/cutefish-toolkit/build/pkg-config"
       - "/home/jatin/Documents/development/cutefish-new/cutefish-toolkit/build/pkgconf"
-      - "/home/jatin/.gemini/antigravity-cli/bin/pkg-config"
-      - "/home/jatin/.gemini/antigravity-cli/bin/pkgconf"
-      - "/home/jatin/.opencode/bin/pkg-config"
-      - "/home/jatin/.opencode/bin/pkgconf"
       - "/home/jatin/.local/bin/pkg-config"
       - "/home/jatin/.local/bin/pkgconf"
       - "/usr/local/bin/pkg-config"
@@ -1859,9 +1887,6 @@ events:
         - "/usr/local/lib/cmake/CutefishToolkit"
         - "/home/jatin/Documents/development/cutefish-new/notes/../cutefish-toolkit/build"
       ENV{PATH}:
-        - "/home/jatin/.gemini/antigravity-cli/bin"
-        - "/home/jatin/.opencode/bin"
-        - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/usr/local/bin"
@@ -1869,19 +1894,21 @@ events:
         - "/bin"
         - "/usr/local/sbin"
         - "/opt/android-sdk/platform-tools"
-        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
         - "/usr"
         - "/"
         - "/usr"
-        - "/usr/local"
+        - "/usr"
         - "/usr/X11R6"
         - "/usr/pkg"
         - "/opt"
@@ -1915,9 +1942,6 @@ events:
         - "/usr/local/lib/cmake/CutefishToolkit"
         - "/home/jatin/Documents/development/cutefish-new/notes/../cutefish-toolkit/build"
       ENV{PATH}:
-        - "/home/jatin/.gemini/antigravity-cli/bin"
-        - "/home/jatin/.opencode/bin"
-        - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/usr/local/bin"
@@ -1925,19 +1949,21 @@ events:
         - "/bin"
         - "/usr/local/sbin"
         - "/opt/android-sdk/platform-tools"
-        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
         - "/usr"
         - "/"
         - "/usr"
-        - "/usr/local"
+        - "/usr"
         - "/usr/X11R6"
         - "/usr/pkg"
         - "/opt"
@@ -1973,9 +1999,6 @@ events:
         - "/usr/local/lib/cmake/CutefishToolkit"
         - "/home/jatin/Documents/development/cutefish-new/notes/../cutefish-toolkit/build"
       ENV{PATH}:
-        - "/home/jatin/.gemini/antigravity-cli/bin"
-        - "/home/jatin/.opencode/bin"
-        - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/usr/local/bin"
@@ -1983,32 +2006,30 @@ events:
         - "/bin"
         - "/usr/local/sbin"
         - "/opt/android-sdk/platform-tools"
-        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
         - "/usr"
         - "/"
         - "/usr"
-        - "/usr/local"
+        - "/usr"
         - "/usr/X11R6"
         - "/usr/pkg"
         - "/opt"
       CMAKE_SYSTEM_LIBRARY_PATH:
         - "/usr/lib/X11"
-...
-
----
-events:
   -
     kind: "find-v1"
     backtrace:
-      - "CMakeLists.txt:54 (find_library)"
+      - "CMakeLists.txt:52 (find_library)"
     mode: "library"
     variable: "SKIA_LIB"
     description: "Path to a library."
@@ -2029,20 +2050,19 @@ events:
       - "/usr/local/lib/cmake/CutefishToolkit/"
       - "/home/jatin/Documents/development/cutefish-new/cutefish-toolkit/build/lib/"
       - "/home/jatin/Documents/development/cutefish-new/cutefish-toolkit/build/"
-      - "/home/jatin/.gemini/antigravity-cli/bin/"
-      - "/home/jatin/.opencode/bin/"
       - "/home/jatin/.local/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
       - "/opt/android-sdk/platform-tools/"
-      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/"
+      - "/home/jatin/Android/Sdk/platform-tools/"
       - "/usr/local/lib/"
       - "/usr/local/"
       - "/usr/lib/"
@@ -2063,20 +2083,19 @@ events:
       - "/usr/local/lib/cmake/CutefishToolkit/"
       - "/home/jatin/Documents/development/cutefish-new/cutefish-toolkit/build/lib/"
       - "/home/jatin/Documents/development/cutefish-new/cutefish-toolkit/build/"
-      - "/home/jatin/.gemini/antigravity-cli/bin/"
-      - "/home/jatin/.opencode/bin/"
       - "/home/jatin/.local/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
       - "/opt/android-sdk/platform-tools/"
-      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/opt/android-studio/plugins/android/resources/android-cli/bin/"
+      - "/home/jatin/Android/Sdk/platform-tools/"
       - "/usr/local/lib/"
       - "/usr/local/"
       - "/usr/lib/"
@@ -2096,9 +2115,6 @@ events:
         - "/usr/local/lib/cmake/CutefishToolkit"
         - "/home/jatin/Documents/development/cutefish-new/notes/../cutefish-toolkit/build"
       ENV{PATH}:
-        - "/home/jatin/.gemini/antigravity-cli/bin"
-        - "/home/jatin/.opencode/bin"
-        - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/usr/local/bin"
@@ -2106,19 +2122,21 @@ events:
         - "/bin"
         - "/usr/local/sbin"
         - "/opt/android-sdk/platform-tools"
-        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
         - "/usr"
         - "/"
         - "/usr"
-        - "/usr/local"
+        - "/usr"
         - "/usr/X11R6"
         - "/usr/pkg"
         - "/opt"
@@ -2131,7 +2149,7 @@ events:
       - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
       - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
       - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
-      - "CMakeLists.txt:55 (pkg_check_modules)"
+      - "CMakeLists.txt:53 (pkg_check_modules)"
     mode: "library"
     variable: "pkgcfg_lib_FONTCONFIG_fontconfig"
     description: "Path to a library."
@@ -2154,9 +2172,6 @@ events:
         - "/usr/local/lib/cmake/CutefishToolkit"
         - "/home/jatin/Documents/development/cutefish-new/notes/../cutefish-toolkit/build"
       ENV{PATH}:
-        - "/home/jatin/.gemini/antigravity-cli/bin"
-        - "/home/jatin/.opencode/bin"
-        - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/usr/local/bin"
@@ -2164,28 +2179,26 @@ events:
         - "/bin"
         - "/usr/local/sbin"
         - "/opt/android-sdk/platform-tools"
-        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
         - "/usr"
         - "/"
         - "/usr"
-        - "/usr/local"
+        - "/usr"
         - "/usr/X11R6"
         - "/usr/pkg"
         - "/opt"
       CMAKE_SYSTEM_LIBRARY_PATH:
         - "/usr/lib/X11"
-...
-
----
-events:
   -
     kind: "find-v1"
     backtrace:
@@ -2193,7 +2206,7 @@ events:
       - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
       - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
       - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
-      - "CMakeLists.txt:56 (pkg_check_modules)"
+      - "CMakeLists.txt:54 (pkg_check_modules)"
     mode: "library"
     variable: "pkgcfg_lib_FREETYPE_freetype"
     description: "Path to a library."
@@ -2216,9 +2229,6 @@ events:
         - "/usr/local/lib/cmake/CutefishToolkit"
         - "/home/jatin/Documents/development/cutefish-new/notes/../cutefish-toolkit/build"
       ENV{PATH}:
-        - "/home/jatin/.gemini/antigravity-cli/bin"
-        - "/home/jatin/.opencode/bin"
-        - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/home/jatin/.local/bin"
         - "/usr/local/bin"
@@ -2226,19 +2236,21 @@ events:
         - "/bin"
         - "/usr/local/sbin"
         - "/opt/android-sdk/platform-tools"
-        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
+        - "/opt/android-studio/plugins/android/resources/android-cli/bin"
+        - "/home/jatin/Android/Sdk/platform-tools"
+        - "/opt/android-sdk/platform-tools"
+      CMAKE_INSTALL_PREFIX: "/usr"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
         - "/usr"
         - "/"
         - "/usr"
-        - "/usr/local"
+        - "/usr"
         - "/usr/X11R6"
         - "/usr/pkg"
         - "/opt"

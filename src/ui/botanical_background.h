@@ -6,6 +6,10 @@
 #include <vector>
 #include "ui/view.h"
 
+namespace cutefish::ui {
+class ImageView;
+}
+
 namespace cutefish::notes {
 
 struct FlowerNode {
@@ -66,6 +70,7 @@ private:
 
     double m_lastW = 0;
     double m_lastH = 0;
+    ui::ImageView* m_illustrationView = nullptr;
     std::vector<VinePoint> m_vines;
     std::vector<LeafNode> m_leaves;
     std::vector<TendrilNode> m_tendrils;

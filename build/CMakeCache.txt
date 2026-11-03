@@ -15,7 +15,7 @@
 ########################
 
 //Build the testing tree.
-BUILD_TESTING:BOOL=OFF
+BUILD_TESTING:BOOL=ON
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
@@ -98,8 +98,8 @@ CMAKE_INSTALL_INCLUDEDIR:PATH=include
 //Info documentation (DATAROOTDIR/info)
 CMAKE_INSTALL_INFODIR:PATH=
 
-//No help, variable specified on the command line.
-CMAKE_INSTALL_LIBDIR:UNINITIALIZED=lib
+//Object code libraries (lib)
+CMAKE_INSTALL_LIBDIR:PATH=lib
 
 //Program executables (libexec)
 CMAKE_INSTALL_LIBEXECDIR:PATH=libexec
@@ -280,6 +280,9 @@ CutefishToolkit_DIR:PATH=/usr/lib/cmake/CutefishToolkit
 //Maximum time allowed before CTest will kill the test.
 DART_TESTING_TIMEOUT:STRING=1500
 
+//Path to a program.
+GITCOMMAND:FILEPATH=/usr/bin/git
+
 //Command to build the project
 MAKECOMMAND:STRING=/usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 
@@ -343,6 +346,8 @@ CMAKE_CACHE_PATCH_VERSION:INTERNAL=4
 CMAKE_COMMAND:INTERNAL=/usr/bin/cmake
 //Path to cpack program executable.
 CMAKE_CPACK_COMMAND:INTERNAL=/usr/bin/cpack
+//ADVANCED property for variable: CMAKE_CTEST_COMMAND
+CMAKE_CTEST_COMMAND-ADVANCED:INTERNAL=1
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=/usr/bin/ctest
 //ADVANCED property for variable: CMAKE_CXX_COMPILER
@@ -581,6 +586,8 @@ FREETYPE_freetype2_INCLUDEDIR:INTERNAL=
 FREETYPE_freetype2_LIBDIR:INTERNAL=
 FREETYPE_freetype2_PREFIX:INTERNAL=
 FREETYPE_freetype2_VERSION:INTERNAL=
+//ADVANCED property for variable: GITCOMMAND
+GITCOMMAND-ADVANCED:INTERNAL=1
 ICU_CFLAGS:INTERNAL=-I/usr/include
 ICU_CFLAGS_I:INTERNAL=
 ICU_CFLAGS_OTHER:INTERNAL=

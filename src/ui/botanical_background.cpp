@@ -17,16 +17,10 @@ static constexpr double kPi = 3.14159265358979323846;
 
 BotanicalBackgroundView::BotanicalBackgroundView()
 {
-    m_illustrationView = addChild<ui::ImageView>();
-    m_illustrationView->setFillMode(ui::ImageView::FillMode::PreserveAspectCrop);
-    m_illustrationView->setSource("/usr/share/cutefish-notes/notes_bg.png");
 }
 
 void BotanicalBackgroundView::layout()
 {
-    if (m_illustrationView)
-        m_illustrationView->setGeometry(localRect());
-
     double w = localRect().width;
     double h = localRect().height;
     if (std::abs(w - m_lastW) > 8.0 || std::abs(h - m_lastH) > 8.0) {
@@ -807,9 +801,19 @@ void BotanicalBackgroundView::paint(ui::Painter& painter)
 {
     bool dark = ui::Theme::current().darkMode;
 
-    // 1. Base Canvas Background (Warm paper tone in light mode, dark slate in dark mode)
-    ui::Color canvasBg = dark ? ui::Color::rgb(0x18181C) : ui::Color::rgb(0xF8F6EF);
+    // 1. Pure Flat Canvas Background (Pure white #FFFFFF in light mode, dark slate #18181C in dark mode)
+    ui::Color canvasBg = dark ? ui::Color::rgb(0x18181C) : ui::Color::rgb(0xFFFFFF);
     painter.fillRect(localRect(), canvasBg);
+
+    // 2. High-Quality Vector Botanical Elements (Vines, Leaves, Tendrils, Buds, Flowers)
+    ui::Color vineColor = dark ? ui::Color::fromArgb(0xF53E9B4C) : ui::Color::fromArgb(0xF52E7D3A);
+    ui::Color leafColor = dark ? ui::Color::fromArgb(0xF842A652) : ui::Color::fromArgb(0xF82E7D3A);
+
+    for (const auto& vp : m_vines) drawVine(painter, vp, vineColor);
+    for (const auto& tendril : m_tendrils) drawTendril(painter, tendril, vineColor);
+    for (const auto& leaf : m_leaves) drawLeaf(painter, leaf.x, leaf.y, leaf.length, leaf.angle, leafColor, dark);
+    for (const auto& bud : m_buds) drawBud(painter, bud, dark);
+    for (const auto& fl : m_flowers) drawFlower(painter, fl, dark);
 }
 
 } // namespace cutefish::notes
